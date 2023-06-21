@@ -1,0 +1,18 @@
+img
+{
+    max-height: 100%; max-width: 40%;
+}
+.carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: #000000; /* Reemplaza #ff0000 con el color deseado */
+}
+.carousel-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px; /* Ajusta el valor según tus necesidades */
+  }
+  
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss"
